@@ -1,9 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2023-09-17T18:15:04.350Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" version="21.7.5" etag="rv2OR1qBN1Mk1mCHS--X" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-17T20:00:54.282Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="sd1chx55RHWeMfz5Npmy" version="21.7.5" type="github">
   <diagram name="Page-1" id="r72HeWoi1W5Yow2Sv3iq">
-    <mxGraphModel>
+    <mxGraphModel dx="838" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="J6DDCK8cfHlTR6jCoDoD-1" value="Data Source" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J6DDCK8cfHlTR6jCoDoD-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="J6DDCK8cfHlTR6jCoDoD-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="390" as="sourcePoint" />
+            <mxPoint x="80" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6DDCK8cfHlTR6jCoDoD-3" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="40" y="150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J6DDCK8cfHlTR6jCoDoD-4" value="API fetch/ Scrape" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J6DDCK8cfHlTR6jCoDoD-5" value="Historical Data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J6DDCK8cfHlTR6jCoDoD-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="J6DDCK8cfHlTR6jCoDoD-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="390" as="sourcePoint" />
+            <mxPoint x="240" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6DDCK8cfHlTR6jCoDoD-8" value="(1. Survey Data&lt;br&gt;2.&amp;nbsp;Reviews&lt;br&gt;&amp;nbsp; 3. User conversation)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="15" y="240" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J6DDCK8cfHlTR6jCoDoD-11" value="Sentiment Analysis" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J6DDCK8cfHlTR6jCoDoD-12" value="Score based OR NLP Training" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="225" y="230" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J6DDCK8cfHlTR6jCoDoD-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="190" as="sourcePoint" />
+            <mxPoint x="480" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6DDCK8cfHlTR6jCoDoD-14" value="Classifier Model" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="140" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="J6DDCK8cfHlTR6jCoDoD-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="J6DDCK8cfHlTR6jCoDoD-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6DDCK8cfHlTR6jCoDoD-15" value="Classifier Model" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="15" y="380" width="75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J6DDCK8cfHlTR6jCoDoD-16" value="New Data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="160" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J6DDCK8cfHlTR6jCoDoD-20" value="Visualization (Computation heavy)&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="280" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J6DDCK8cfHlTR6jCoDoD-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;" edge="1" parent="1" source="J6DDCK8cfHlTR6jCoDoD-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="410" as="targetPoint" />
+            <mxPoint x="75" y="409.5" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="240" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J6DDCK8cfHlTR6jCoDoD-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J6DDCK8cfHlTR6jCoDoD-25" target="J6DDCK8cfHlTR6jCoDoD-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J6DDCK8cfHlTR6jCoDoD-25" value="1. &amp;nbsp;Breakdown chart &amp;nbsp;of Total responses group by Org level&lt;br&gt;2. Trend of Negative/Positve Sentiments group by Location/Org&lt;br&gt;3. Net Positive Score Trend group by Survey Type&lt;br&gt;4. Net Negative sentiments group by Pay group level&lt;br&gt;5. Average Sentiment group by Survey Type&lt;br&gt;6. Base Pay compared to Teammates&lt;br&gt;7. Time Since promotion&amp;nbsp;&lt;br&gt;8. Annual Change in Base Pay&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="320" width="230" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="J6DDCK8cfHlTR6jCoDoD-26" value="Outcome Chart" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J6DDCK8cfHlTR6jCoDoD-27" value="1. Risk of Resignation weighted by Sentiment score group by Org level&lt;br&gt;2. Internal Cost of Replacement of Incumbent Positions group by Org level&amp;nbsp;&lt;br&gt;3. External Cost of Replacement of Incumbents Position by Org Level&lt;br&gt;4.Employee Burnout Score group by Location" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="340" width="220" height="140" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
